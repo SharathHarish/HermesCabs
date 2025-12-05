@@ -1,4 +1,4 @@
-HermesCabs 🚖
+Hermes Cabs 🚖
 
 HermesCabs is a full‑stack ride‑hailing application.
 It offers user signup/login using JWT, a sleek golden‑beige themed frontend in Next.js, and a backend API built with FastAPI.
