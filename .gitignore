@@ -1,0 +1,77 @@
+# ============================
+# PYTHON / FASTAPI BACKEND
+# ============================
+
+# Virtual environment
+backend/env/
+backend/venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# SQLite (not needed but safe)
+*.db
+*.sqlite3
+
+# Alembic cache
+alembic/__pycache__/
+backend/alembic/__pycache__/
+
+# Local tooling
+*.log
+
+# ============================
+# NODE / NEXT.JS FRONTEND
+# ============================
+
+# Dependency folders
+frontend/node_modules/
+
+# Build output
+frontend/.next/
+frontend/out/
+
+# Debug / temporary files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ============================
+# ENVIRONMENTS
+# ============================
+
+# ⚠️ YOU WANT .env FILES IN GIT (public project)
+# So do NOT ignore them.
+# If you ever want to ignore them later, uncomment:
+
+# *.env
+# .env.local
+
+# ============================
+# OS / EDITOR SPECIFIC
+# ============================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# VSCode settings
+.vscode/
+*.code-workspace
+
+# MacOS
+.DS_Store
+
+# ============================
+# GIT INTERNAL SAFETY
+# ============================
+
+# Prevent adding embedded repos
+**/.git

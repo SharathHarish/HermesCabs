@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Body background and default text */
+body {
+  @apply bg-gold-light text-text-default font-sans;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  @apply text-gold-dark font-serif;
+}
+
+/* Links */
+a {
+  @apply text-accent hover:text-accent-dark transition-colors;
+}
+
+/* Buttons */
+.btn {
+  @apply px-4 py-2 rounded bg-accent text-neutral-light font-semibold shadow-gold hover:bg-accent-dark;
+}
+
+/* Cards */
+.card {
+  @apply p-6 bg-neutral-light rounded-xl shadow-lg;
+}
